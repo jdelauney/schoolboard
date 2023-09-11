@@ -1,0 +1,47 @@
+name: Technical Ticket
+description: Template for feature ticket
+title: 🛠️T00 - <titre>
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: DESCRIPTION
+      description: Donnez une courte description du travail à mettre en place
+      placeholder: En tant que [persona] je veux [action] afin de [but (optionnel)]
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: TACHES
+      description: Ajoutez les tâches à faire
+      placeholder: " - [] Tache 1"
+    validations:
+      required: true
+  - type: textarea
+    id: rules
+    attributes:
+      label: RÈGLES METIER
+      description: Ajoutez les règles métiers
+      placeholder: " - [] Règle 1"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: NOTES
+      description: Donnez des informations complémentaires si besoin
+  - type: textarea
+    id: assets
+    attributes:
+      label: ASSETS
+      description: Joigniez les fichiers / url nécessaire à la réalisation du ticket
+  - type: textarea
+    id: pr
+    attributes:
+      label: Pull Request
+      description: A compléter lorsque vous soumettrez votre PR, ajoutez les liens
+      value: /-
+        Titre du ticket  numéro_du_ticket prefixé par un dièse
+        Lien vers la PR --> [lien](url)
+        Lien vers le serveur de test --> [lien](url)
