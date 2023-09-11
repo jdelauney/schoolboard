@@ -1,6 +1,6 @@
-name: Feature Ticket
+name: Technical Ticket
 description: Template for technical ticket
-title: ✨T00 - <titre>
+title: 🛠️T00 - <titre>
 body:
   - type: textarea
     id: description
